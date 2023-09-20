@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1614475880">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1614475880" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.CWDLocator;org.eclipse.cdt.core.GCCErrorParser" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1614475880" name="Debug" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug">
+					<folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1614475880." name="/" resourcePath="">
+						<toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.debug.925413368" name="MCU ARM GCC" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.debug">
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.149856249" name="MCU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" useByScannerDiscovery="true" value="STM32F769NIHx" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.1662938634" name="CPU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.1969599445" name="Core" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1981399174" name="Floating-point ABI" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.value.hard" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.1149586317" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
+							<builder buildPath="${workspace_loc:/stm_20230520}/Debug" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.720571332" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.862428076" name="MCU GCC Assembler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.1313212109" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.value.g3" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.otherflags.803462123" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
+									<listOptionValue builtIn="false" value="-mfpu=fpv5-d16"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.includepaths.818146120" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_resources}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_core_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/sdk_stm32f769_disco}&quot;"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input.1125196288" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.238187138" name="MCU GCC Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.1993625765" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.value.g3" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.1125803699" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols.656098294" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F769xx"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.1562957257" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_resources}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_core_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/sdk_stm32f769_disco}&quot;"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${MAIN_NAME}/${FW2_WRAPPER_CORE_CONF_RPATH}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${MAIN_NAME}/${SDK_PLATFORM_CONF_RPATH}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_resources/stm32f769_disco/src/rs/rsSerial/v_${fw2_wrapper_resources_RS_SERIAL_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/cg}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/cs}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dg/dgFormatDigit/v_${fw2_core_core_DG_FORMAT_DIGIT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dg/dgInterface/v_${fw2_core_core_DG_INTERFACE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dt/dtDef/v_${fw2_core_core_DT_DEF_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krEvent/v_${fw2_core_core_KR_EVENT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krInit/v_${fw2_core_core_KR_INIT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krTimer/v_${fw2_core_core_KR_TIMER_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svState/v_${fw2_core_core_SV_STATE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svStateMachine/v_${fw2_core_core_SV_STATE_MACHINE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svSync/v_${fw2_core_core_SV_SYNC_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/common/src/kr/krThread/v_${fw2_wrapper_core_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/kr/krThread/v_${fw2_wrapper_core_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/sy/syThread/v_${fw2_wrapper_core_SY_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/tb/kr/krThread/v_${fw2_wrapper_core_TB_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/BSP/Components/Common}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/BSP/STM32F769I-Discovery}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/CMSIS/Device/ST/STM32F7xx/Include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/CMSIS/Include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/STM32F7xx_HAL_Driver/Inc}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1}"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1135563150" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.1011621278" name="MCU G++ Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.216149182" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.value.g3" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.552476097" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.includepaths.1338843850" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_resources}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_core_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/sdk_stm32f769_disco}&quot;"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${MAIN_NAME}/${FW2_WRAPPER_CORE_CONF_RPATH}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${MAIN_NAME}/${SDK_PLATFORM_CONF_RPATH}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_resources/stm32f769_disco/src/rs/rsSerial/v_${fw2_wrapper_resources_RS_SERIAL_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/cg}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/cs}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dg/dgFormatDigit/v_${fw2_core_core_DG_FORMAT_DIGIT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dg/dgInterface/v_${fw2_core_core_DG_INTERFACE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dt/dtDef/v_${fw2_core_core_DT_DEF_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krEvent/v_${fw2_core_core_KR_EVENT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krInit/v_${fw2_core_core_KR_INIT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krTimer/v_${fw2_core_core_KR_TIMER_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svState/v_${fw2_core_core_SV_STATE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svStateMachine/v_${fw2_core_core_SV_STATE_MACHINE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svSync/v_${fw2_core_core_SV_SYNC_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/common/src/kr/krThread/v_${fw2_wrapper_core_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/kr/krThread/v_${fw2_wrapper_core_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/sy/syThread/v_${fw2_wrapper_core_SY_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/tb/kr/krThread/v_${fw2_wrapper_core_TB_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/BSP/Components/Common}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/BSP/STM32F769I-Discovery}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/CMSIS/Device/ST/STM32F7xx/Include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/CMSIS/Include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/STM32F7xx_HAL_Driver/Inc}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1}"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols.1434012727" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F769xx"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1945264365" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.96853843" name="MCU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.1635256066" name="MCU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script.1993533460" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script" useByScannerDiscovery="false" value="${workspace_loc:/${ProjName}/STM32F769NIHX_FLASH.ld}" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries.2046137536" name="Libraries (-l)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="fw2_wrapper_resources"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="fw2_core_core"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="fw2_wrapper_core"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="sdk_stm32f769_disco"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories.200223451" name="Library search path (-L)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_resources/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_core_core/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_core/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/sdk_stm32f769_disco/Release}&quot;"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.1910668723" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver.573961507" name="MCU GCC Archiver" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size.1040566143" name="MCU Size" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile.1022375989" name="MCU Output Converter list file" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex.74179916" name="MCU Output Converter Hex" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary.1687621832" name="MCU Output Converter Binary" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog.598867794" name="MCU Output Converter Verilog" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec.1128406166" name="MCU Output Converter Motorola S-rec" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec.1325445305" name="MCU Output Converter Motorola S-rec with symbols" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="common/cg/libs/fw2_wrapper_core"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="stm32f769_disco/Inc"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="stm32f769_disco/Src"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="stm32f769_disco/SW4STM32"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="sdk_stm32f769_disco;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/sdk_stm32f769_disco"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/sdk_stm32f769_disco/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="sdk_stm32f769_disco" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="fw2_wrapper_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/fw2_wrapper_core"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/fw2_wrapper_core/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="fw2_wrapper_core" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="fw2_core_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/fw2_core_core"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/fw2_core_core/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="fw2_core_core" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="fw2_wrapper_resources;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/fw2_wrapper_resources"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/fw2_wrapper_resources/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="fw2_wrapper_resources" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.766171386">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.766171386" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.766171386" name="Release" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release">
+					<folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.766171386." name="/" resourcePath="">
+						<toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.release.24538740" name="MCU ARM GCC" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.release">
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.330535599" name="MCU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" useByScannerDiscovery="true" value="STM32F769NIHx" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.1244338212" name="CPU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.1217838917" name="Core" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid" useByScannerDiscovery="false" value="0" valueType="string"/>
+							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.894783462" name="Floating-point ABI" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi" useByScannerDiscovery="true" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.value.hard" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform.2050673879" isAbstract="false" osList="all" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.targetplatform"/>
+							<builder buildPath="${workspace_loc:/stm_20230520}/Release" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder.1489886032" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.builder"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.15982047" name="MCU GCC Assembler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.1534483591" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.includepaths.832749619" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_resources}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_core_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/sdk_stm32f769_disco}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.otherflags.43760228" name="Other flags" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.otherflags" useByScannerDiscovery="true" valueType="stringList">
+									<listOptionValue builtIn="false" value="-mfpu=fpv5-d16"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input.908005496" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.input"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1315025249" name="MCU GCC Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.557139711" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.1092235338" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.value.os" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.2022002682" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_resources}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_core_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/sdk_stm32f769_disco}&quot;"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${MAIN_NAME}/${FW2_WRAPPER_CORE_CONF_RPATH}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${MAIN_NAME}/${SDK_PLATFORM_CONF_RPATH}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_resources/stm32f769_disco/src/rs/rsSerial/v_${fw2_wrapper_resources_RS_SERIAL_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/cg}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/cs}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dg/dgFormatDigit/v_${fw2_core_core_DG_FORMAT_DIGIT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dg/dgInterface/v_${fw2_core_core_DG_INTERFACE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dt/dtDef/v_${fw2_core_core_DT_DEF_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krEvent/v_${fw2_core_core_KR_EVENT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krInit/v_${fw2_core_core_KR_INIT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krTimer/v_${fw2_core_core_KR_TIMER_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svState/v_${fw2_core_core_SV_STATE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svStateMachine/v_${fw2_core_core_SV_STATE_MACHINE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svSync/v_${fw2_core_core_SV_SYNC_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/common/src/kr/krThread/v_${fw2_wrapper_core_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/kr/krThread/v_${fw2_wrapper_core_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/sy/syThread/v_${fw2_wrapper_core_SY_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/tb/kr/krThread/v_${fw2_wrapper_core_TB_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/BSP/Components/Common}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/BSP/STM32F769I-Discovery}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/CMSIS/Device/ST/STM32F7xx/Include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/CMSIS/Include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/STM32F7xx_HAL_Driver/Inc}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1}"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols.1078255802" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F769xx"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1828098760" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.1820415256" name="MCU G++ Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.1925939910" name="Debug level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.value.g0" valueType="enumerated"/>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.1003363875" name="Optimization level" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.value.os" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.includepaths.1921040460" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_resources}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_core_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/sdk_stm32f769_disco}&quot;"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${MAIN_NAME}/${FW2_WRAPPER_CORE_CONF_RPATH}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${MAIN_NAME}/${SDK_PLATFORM_CONF_RPATH}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_resources/stm32f769_disco/src/rs/rsSerial/v_${fw2_wrapper_resources_RS_SERIAL_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/cg}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/cs}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dg/dgFormatDigit/v_${fw2_core_core_DG_FORMAT_DIGIT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dg/dgInterface/v_${fw2_core_core_DG_INTERFACE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/dt/dtDef/v_${fw2_core_core_DT_DEF_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krEvent/v_${fw2_core_core_KR_EVENT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krInit/v_${fw2_core_core_KR_INIT_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/kr/krTimer/v_${fw2_core_core_KR_TIMER_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svState/v_${fw2_core_core_SV_STATE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svStateMachine/v_${fw2_core_core_SV_STATE_MACHINE_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_core_core/src/sv/svSync/v_${fw2_core_core_SV_SYNC_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/common/src/kr/krThread/v_${fw2_wrapper_core_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/kr/krThread/v_${fw2_wrapper_core_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/sy/syThread/v_${fw2_wrapper_core_SY_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/fw2_wrapper_core/stm32f769_disco/src/tb/kr/krThread/v_${fw2_wrapper_core_TB_KR_THREAD_VER}}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/BSP/Components/Common}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/BSP/STM32F769I-Discovery}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/CMSIS/Device/ST/STM32F7xx/Include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/CMSIS/Include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Drivers/STM32F7xx_HAL_Driver/Inc}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/include}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/sdk_stm32f769_disco/src/v_${sdk_stm32f769_disco_SDK_PLATFORM_LIB_VER}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1}"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols.718880668" name="Define symbols (-D)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.definedsymbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="USE_HAL_DRIVER"/>
+									<listOptionValue builtIn="false" value="STM32F769xx"/>
+								</option>
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.warnings.fatal.1340286712" name="Abort compilation on first error (-Wfatal-errors)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.warnings.fatal" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.835638047" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.1064088944" name="MCU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.1164523809" name="MCU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker">
+								<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script.1993533460" name="Linker Script (-T)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.script" useByScannerDiscovery="false" value="${workspace_loc:/${ProjName}/STM32F769NIHX_FLASH.ld}" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries.1069648818" name="Libraries (-l)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="fw2_wrapper_resources"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="fw2_core_core"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="fw2_wrapper_core"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="sdk_stm32f769_disco"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories.999124206" name="Library search path (-L)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_resources/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_core_core/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/fw2_wrapper_core/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/sdk_stm32f769_disco/Release}&quot;"/>
+								</option>
+								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.1306166476" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver.260254683" name="MCU GCC Archiver" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size.2106241254" name="MCU Size" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile.478518660" name="MCU Output Converter list file" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objdump.listfile"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex.188307826" name="MCU Output Converter Hex" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.hex"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary.2061007296" name="MCU Output Converter Binary" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.binary"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog.818980405" name="MCU Output Converter Verilog" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.verilog"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec.796714953" name="MCU Output Converter Motorola S-rec" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.srec"/>
+							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec.1134332542" name="MCU Output Converter Motorola S-rec with symbols" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.objcopy.symbolsrec"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="common/cg/libs/fw2_wrapper_core"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="stm32f769_disco/Inc"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="stm32f769_disco/Src"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="stm32f769_disco/SW4STM32"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="sdk_stm32f769_disco;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/sdk_stm32f769_disco"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/sdk_stm32f769_disco/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="sdk_stm32f769_disco" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="fw2_wrapper_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/fw2_wrapper_core"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/fw2_wrapper_core/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="fw2_wrapper_core" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="fw2_core_core;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/fw2_core_core"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/fw2_core_core/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="fw2_core_core" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="fw2_wrapper_resources;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/fw2_wrapper_resources"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/fw2_wrapper_resources/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="fw2_wrapper_resources" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="stm_20230520.com.st.stm32cube.ide.mcu.gnu.managedbuild.projecttype.exe.141555421" name="Executable" projectType="com.st.stm32cube.ide.mcu.gnu.managedbuild.projecttype.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.766171386;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.766171386.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1315025249;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1828098760">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1614475880;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1614475880.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.1011621278;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1945264365">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1614475880;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1614475880.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.238187138;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1135563150">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.766171386;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.766171386.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.1820415256;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.835638047">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/stm_20230520"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/stm_20230520"/>
+		</configuration>
+	</storageModule>
+</cproject>

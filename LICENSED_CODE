@@ -1,0 +1,7 @@
+# source code file
+src/common
+
+src/stm32f769_disco/Src
+
+# cmake build files
+wsp/cmake/project
